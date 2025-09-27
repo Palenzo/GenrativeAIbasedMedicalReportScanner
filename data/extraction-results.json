@@ -1,6 +1,41 @@
 {
   "results": [
     {
+      "id": 2,
+      "currency": "INR",
+      "amounts": [
+        {
+          "type": "subtotal",
+          "value": 470.4,
+          "source": "text: 'Sub Total ₹ 470.40'"
+        },
+        {
+          "type": "discount",
+          "value": 100,
+          "source": "text: 'Discount: ₹ 100.00'"
+        },
+        {
+          "type": "total_bill",
+          "value": 370.4,
+          "source": "text: 'Final Amount: ₹ 370.40'"
+        },
+        {
+          "type": "paid",
+          "value": 100,
+          "source": "text: 'Amount Paid: ₹ 100.00'"
+        },
+        {
+          "type": "due",
+          "value": 270.4,
+          "source": "text: 'Balance: ₹ 270.40'"
+        }
+      ],
+      "confidence": 0.95,
+      "status": "ok",
+      "createdAt": "2025-09-27T09:47:38.304Z",
+      "updatedAt": "2025-09-27T09:47:38.304Z"
+    },
+    {
       "id": 1,
       "currency": "INR",
       "amounts": [
@@ -36,5 +71,5 @@
       "updatedAt": "2025-09-27T07:47:58.674Z"
     }
   ],
-  "nextId": 2
+  "nextId": 3
 }

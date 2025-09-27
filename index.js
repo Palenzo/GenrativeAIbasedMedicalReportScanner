@@ -14,7 +14,8 @@ if (!process.env.OPENAI_API_KEY || process.env.OPENAI_API_KEY === 'your_openai_a
 
 const app = express();
 const port = process.env.PORT || 3000;
-
+const cors = require('cors');
+app.use(cors());
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
