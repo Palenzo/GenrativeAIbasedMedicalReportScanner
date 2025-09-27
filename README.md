@@ -94,7 +94,7 @@ The service offers both modular and complete pipeline approaches:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/Palenzo/GenrativeAIbasedMedicalReportScanner.git
    cd <your-repo-name>
    ```
 
